@@ -11,7 +11,6 @@ int main() {
     my_emails.push(Email("Isaac", "2002-02-27", "lab 3"));
     my_emails.push(Email("Kanda", "2002-02-18", "lab 4"));
     my_emails.push(Email("Jojo", "2002-02-28", "lab 2"));
-///
     my_emails.SortSubject();
     auto w=my_emails.print();
     my_emails.SortWho();
